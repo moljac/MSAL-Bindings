@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <DefineConstants>$(DefineConstants);ANDROID_1;ANDROID_2;ANDROID_3;ANDROID_4;ANDROID_5;ANDROID_6;ANDROID_7;ANDROID_8;ANDROID_9;ANDROID_10;ANDROID_11;ANDROID_12;ANDROID_13;ANDROID_14;ANDROID_15;ANDROID_16;ANDROID_17;ANDROID_18;ANDROID_19;ANDROID_20;ANDROID_21;ANDROID_22;ANDROID_23;ANDROID_24;ANDROID_25;ANDROID_26;ANDROID_27;ANDROID_28;ANDROID_29</DefineConstants>
+  </PropertyGroup>
+  <!-- Classes -->
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.AadAuthorityAudience.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.Account.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.AcquireTokenParameters.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.AcquireTokenSilentParameters.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.AuthenticationResult.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.AuthenticationScheme.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.AzureCloudInstance.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.BearerAuthenticationScheme.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.BrowserTabActivity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.Claims.ClaimsRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.Claims.RequestedClaim.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.Claims.RequestedClaimAdditionalInformation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.Claims.WWWAuthenticateHeader.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.Configuration.AccountMode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.Configuration.HttpConfiguration.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.Configuration.LoggerConfiguration.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.CurrentAccountResult.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.Exception.MsalArgumentException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.Exception.MsalClientException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.Exception.MsalDeclinedScopeException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.Exception.MsalException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.Exception.MsalIntuneAppProtectionPolicyRequiredException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.Exception.MsalServiceException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.Exception.MsalUiRequiredException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.Exception.MsalUserCancelException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.Helper.BrokerHelperActivity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.HttpMethod.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.IAccount.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.IAuthenticationCallback.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.IAuthenticationResult.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.IClaimable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.ICurrentAccountResult.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.ILoggerCallback.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.IMsalEventReceiver.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.IMultipleAccountPublicClientApplication.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.IMultiTenantAccount.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.Internal.Api.BrokerClientIdRefreshTokenAccessor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.Internal.AsyncResult.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.Internal.CommandParametersAdapter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.Internal.Controllers.MSALControllerFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.Internal.Controllers.MsalExceptionAdapter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.Internal.IntuneAcquireTokenParameters.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.Internal.MsalUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.IPublicClientApplication.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.ISilentAuthenticationCallback.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.ISingleAccountPublicClientApplication.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.ITenantProfile.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.ITokenShare.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.Logger.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.MsalChromeCustomTabManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.MultipleAccountPublicClientApplication.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.MultiTenantAccount.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.PoPAuthenticationScheme.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.Prompt.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.PublicClientApplication.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.PublicClientApplicationConfiguration.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.PublicClientApplicationConfigurationFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.SingleAccountPublicClientApplication.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.TenantProfile.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.TokenParameters.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.TokenParametersAdapter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.TokenShareResult.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Client.WebViewSelection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Microsoft.Identity.Msal.BuildConfig.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Java.Interop.__TypeRegistrations.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)__NamespaceMapping__.cs" />
+  </ItemGroup>
+  <!-- Enums -->
+  <ItemGroup />
+</Project>

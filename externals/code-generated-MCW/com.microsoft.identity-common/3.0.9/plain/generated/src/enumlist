@@ -1,0 +1,16 @@
+com.microsoft.identity.common.adal.internal.ADALError:Com.Microsoft.Identity.Common.Adal.Internal:ADALError
+com.microsoft.identity.common.adal.internal.AuthenticationSettings:Com.Microsoft.Identity.Common.Adal.Internal:AuthenticationSettings
+com.microsoft.identity.common.adal.internal.cache.StorageHelper$EncryptionType:Com.Microsoft.Identity.Common.Adal.Internal.Cache:StorageHelper.EncryptionType
+com.microsoft.identity.common.adal.internal.cache.StorageHelper$KeyType:Com.Microsoft.Identity.Common.Adal.Internal.Cache:StorageHelper.KeyType
+com.microsoft.identity.common.exception.BrokerCommunicationException$Category:Com.Microsoft.Identity.Common.Exception:BrokerCommunicationException.Category
+com.microsoft.identity.common.internal.authorities.Environment:Com.Microsoft.Identity.Common.Internal.Authorities:Environment
+com.microsoft.identity.common.internal.broker.ipc.BrokerOperationBundle$Operation:Com.Microsoft.Identity.Common.Internal.Broker.Ipc:BrokerOperationBundle.Operation
+com.microsoft.identity.common.internal.broker.ipc.IIpcStrategy$Type:Com.Microsoft.Identity.Common.Internal.Broker.Ipc:IIpcStrategy.Type
+com.microsoft.identity.common.internal.controllers.CommandResult$ResultStatus:Com.Microsoft.Identity.Common.Internal.Controllers:CommandResult.ResultStatus
+com.microsoft.identity.common.internal.dto.CredentialType:Com.Microsoft.Identity.Common.Internal.Dto:CredentialType
+com.microsoft.identity.common.internal.logging.Logger$LogLevel:Com.Microsoft.Identity.Common.Internal.Logging:Logger.LogLevel
+com.microsoft.identity.common.internal.providers.oauth2.AuthorizationStatus:Com.Microsoft.Identity.Common.Internal.Providers.Oauth2:AuthorizationStatus
+com.microsoft.identity.common.internal.providers.oauth2.OpenIdConnectPromptParameter:Com.Microsoft.Identity.Common.Internal.Providers.Oauth2:OpenIdConnectPromptParameter
+com.microsoft.identity.common.internal.request.BrokerRequestType:Com.Microsoft.Identity.Common.Internal.Request:BrokerRequestType
+com.microsoft.identity.common.internal.request.SdkType:Com.Microsoft.Identity.Common.Internal.Request:SdkType
+com.microsoft.identity.common.internal.ui.AuthorizationAgent:Com.Microsoft.Identity.Common.Internal.UI:AuthorizationAgent

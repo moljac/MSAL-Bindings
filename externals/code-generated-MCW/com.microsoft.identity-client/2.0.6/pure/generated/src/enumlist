@@ -1,0 +1,7 @@
+com.microsoft.identity.client.AadAuthorityAudience:Com.Microsoft.Identity.Client:AadAuthorityAudience
+com.microsoft.identity.client.AzureCloudInstance:Com.Microsoft.Identity.Client:AzureCloudInstance
+com.microsoft.identity.client.configuration.AccountMode:Com.Microsoft.Identity.Client.Configuration:AccountMode
+com.microsoft.identity.client.HttpMethod:Com.Microsoft.Identity.Client:HttpMethod
+com.microsoft.identity.client.Logger$LogLevel:Com.Microsoft.Identity.Client:Logger.LogLevel
+com.microsoft.identity.client.Prompt:Com.Microsoft.Identity.Client:Prompt
+com.microsoft.identity.client.WebViewSelection:Com.Microsoft.Identity.Client:WebViewSelection

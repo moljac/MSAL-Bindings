@@ -1,18 +1,23 @@
 ﻿<Project Sdk="MSBuild.Sdk.Extras/3.0.22">
   <PropertyGroup>
-    <TargetFrameworks>monoandroid10.0</TargetFrameworks>
+    <TargetFramework>monoandroid10.0</TargetFramework>
+    <!--
+    <TargetFrameworks>monoandroid9.0;monoandroid10.0;monoandroid11.0</TargetFrameworks>
+    -->
+    <WarningLevel>0</WarningLevel>
+    <LangVersion>latest</LangVersion>
     <IsBindingProject>True</IsBindingProject>
-    <RootNamespace>Microsoft.Identity.Client.Xamarin.Android.AndroidX</RootNamespace>
-    <AssemblyName>Microsoft.Identity.Client.Xamarin.Android.AndroidX</AssemblyName>
+    <RootNamespace>Microsoft.Identity.Client</RootNamespace>
+    <AssemblyName>Microsoft.Identity.Client</AssemblyName>
     <AndroidClassParser>class-parse</AndroidClassParser>
     <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
   </PropertyGroup>
   
   <PropertyGroup>
-    <PackageId>Microsoft.Identity.Client.Xamarin.Android.AndroidX</PackageId>
-    <Title>Microsoft.Identity.Client.Xamarin.Android.AndroidX</Title>
-    <Summary>Microsoft.Identity.Client.Xamarin.Android.AndroidX</Summary>
-    <Description>Microsoft.Identity.Client.Xamarin.Android.AndroidX</Description>
+    <PackageId>Microsoft.Identity.Client</PackageId>
+    <Title>Microsoft.Identity.Client</Title>
+    <Summary>Microsoft.Identity.Client</Summary>
+    <Description>Microsoft.Identity.Client</Description>
     <Authors>Microsoft</Authors>
     <Owners>Microsoft</Owners>
     <Copyright>© Microsoft Corporation. All rights reserved.</Copyright>
@@ -27,6 +32,9 @@
   </PropertyGroup>
   
   <ItemGroup>
+    <Compile Remove="Properties\**" />
+    <EmbeddedResource Remove="Properties\**" />
+    <None Remove="Properties\**" />
     <None Remove="Transforms\*.xml" />
     <TransformFile Include="Transforms\*.xml" />
     <!--
@@ -39,16 +47,24 @@
   <ItemGroup>
     <None Include="Jars\AboutJars.txt" />
     <None Include="Additions\AboutAdditions.txt" />
-    <LibraryProjectZip Include="Jars\msal-2.0.2.aar" />
+    <LibraryProjectZip Include="Jars\msal-2.0.6.aar" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedJar Include="Jars\classes.jar" />
     <EmbeddedReferenceJar Include="Jars\gson-2.8.6.jar" />
     <EmbeddedReferenceJar Include="Jars\nimbus-jose-jwt-9.1.2.jar" />
   </ItemGroup>
-  
-
   <ItemGroup>
-    <Folder Include="Properties\" />
+    <PackageReference Include="Xamarin.AndroidX.ConstraintLayout" Version="2.0.4.1" />
+    <PackageReference Include="Xamarin.AndroidX.Browser" Version="1.3.0.4" />
+    <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.2.0.6" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Microsoft.Identity.Common.XamarinAndroid.AndroidX\Microsoft.Identity.Common.XamarinAndroid.AndroidX.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Jars\msal-2.0.2-javadoc.jar" />
+    <!--
+    -->
+    <JavaDocJar Include="Jars\msal-2.0.2-javadoc.jar" />
   </ItemGroup>
 </Project>
